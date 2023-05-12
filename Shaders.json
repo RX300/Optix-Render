@@ -1,0 +1,30 @@
+{
+  "RayGenShader": {
+    "ModuleName": "module",
+    "FuncName": "__raygen__rg"
+  },
+
+  "MissShader": {
+    "Num": 1,
+    "Data": [
+      {
+        "ModuleName": "module",
+        "FuncName": "__miss__ms"
+      }
+    ]
+  },
+
+  "HitShader": {
+    "Num": 1,
+    "Data": [
+      {
+        "ISModuleName": "NULL",
+        "AHModuleName": "NULL",
+        "CHModuleName": "module",
+        "ISName": "NULL",
+        "AHName": "NULL",
+        "CHName": "__closesthit__ch"
+      }
+    ]
+  }
+}

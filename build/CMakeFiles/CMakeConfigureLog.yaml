@@ -1,0 +1,655 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      生成启动时间为 2023/5/12 20:00:26。
+      Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+        或批处理文件。
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:03.19
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      生成启动时间为 2023/5/12 20:00:29。
+      Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      AddCudaCompileDeps:
+        D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=0 /D_MBCS /I"D:\\cuda\\CUDA Development\\include" /ID:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\include /I"D:\\cuda\\CUDA Development\\bin" /I"D:\\cuda\\CUDA Development\\include" /I. /FIcuda_runtime.h /c D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\x64\\Debug”。
+        cmd.exe /C "C:\\Users\\RX\\AppData\\Local\\Temp\\tmp15fcf0e7a7044e71989a52c6b9c8642f.cmd"
+        "D:\\cuda\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu   -I"D:\\cuda\\CUDA Development\\include" -I"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\include" -I"D:\\cuda\\CUDA Development\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA>"D:\\cuda\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu   -I"D:\\cuda\\CUDA Development\\include" -I"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\include" -I"D:\\cuda\\CUDA Development\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=D:\\cuda\\CUDA Development\\bin
+        #$ _THERE_=D:\\cuda\\CUDA Development\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=D:\\cuda\\CUDA Development\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=D:\\cuda\\CUDA Development\\bin/../nvvm/libdevice
+        #$ PATH=D:\\cuda\\CUDA Development\\bin/../nvvm/bin;D:\\cuda\\CUDA Development\\bin;D:\\cuda\\CUDA Development\\bin/../lib;D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64;;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86;;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\bin\\NETFX 4.8 Tools;D:\\VisualStudio\\community\\Common7\\tools;D:\\VisualStudio\\community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;D:\\VisualStudio\\community\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64;D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64;D:\\VisualStudio\\community\\Common7\\IDE\\VC\\VCPackages;D:\\VisualStudio\\community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;D:\\VisualStudio\\community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;D:\\VisualStudio\\community\\MSBuild\\Current\\bin\\Roslyn;D:\\VisualStudio\\community\\Team Tools\\Performance Tools\\x64;D:\\VisualStudio\\community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\;D:\\VisualStudio\\community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;D:\\VisualStudio\\community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;D:\\VisualStudio\\community\\Common7\\IDE\\;D:\\VisualStudio\\community\\Common7\\Tools\\;D:\\utils\\vulkanSDK-1.3.243.0\\Bin;D:\\cuda\\CUDA Development\\bin;D:\\cuda\\CUDA Development\\libnvvp;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;D:\\VMware workstation16\\bin\\;D:\\python\\Scripts\\;D:\\python\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\cmake\\bin;D:\\mingw\\bin;C:\\Program Files\\dotnet\\;D:\\git\\Git\\cmd;D:\\utils\\embree-3.13.3.x64.vc14.windows\\embree-3.13.3.x64.vc14.windows\\lib;D:\\cmake\\bin;D:\\utils\\pyd lib;D:\\utils\\llvm\\bin;F:\\whisper\\ffmpeg\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\utils\\Nvidia software\\Nsight Compute 2023.1.0\\;D:\\rust\\.cargo\\bin;C:\\Users\\RX\\AppData\\Local\\Microsoft\\WindowsApps;D:\\python;D:\\PyCharm Community Edition 2021.2\\bin;;D:\\VisualStudio\\vs2019communiy(visual studio ide)\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64;D:\\utils\\pyd lib;D:\\utils\\vcpkg\\vcpkg;D:\\rust\\.rustup;D:\\rust\\.cargo;D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64;C:\\Users\\RX\\.dotnet\\tools;D:\\Microsoft VS Code Insiders\\bin;D:\\VisualStudio\\community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;D:\\VisualStudio\\community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\VisualStudio\\community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;
+        #$ INCLUDES="-ID:\\cuda\\CUDA Development\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:D:\\cuda\\CUDA Development\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-8.res" > "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-8.res
+        #$ cudafe++ --microsoft_version=1935 --msvc_target_version=1935 --compiler_bindir "D:/VisualStudio/community/VC/Tools/MSVC/14.35.32215/bin/HostX64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-10.res" > "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-10.res
+        #$ cicc --microsoft_version=1935 --msvc_target_version=1935 --compiler_bindir "D:/VisualStudio/community/VC/Tools/MSVC/14.35.32215/bin/HostX64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00005630_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/RX/AppData/Local/Temp/tmpxft_00005630_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-12.res" -Fo"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00005630_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\RX\\AppData\\Local\\Temp/tmpxft_00005630_00000000-12.res
+      已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      Link:
+        D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\cuda\\CUDA Development\\lib\\x64" /LIBPATH:"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" cudart_static.lib "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"
+          正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+        或批处理文件。
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\utils\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.exe" "D:\\utils\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=D:\\cuda\\CUDA Development\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=D:\\cuda\\CUDA Development\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+      
+      “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标) (1) ->
+      (Link 目标) -> 
+        LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 个警告
+          0 个错误
+      
+      已用时间 00:00:04.55
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/3.26.3/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-ID:\\cuda\\CUDA Development\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx"
+      binary: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/utils/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx
+        
+        Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2ba88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        生成启动时间为 2023/5/12 20:00:35。
+        Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qecbvx\\cmTC_2ba88.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2ba88.dir\\Debug\\”。
+          正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qecbvx\\Debug\\”。
+          正在创建目录“cmTC_2ba88.dir\\Debug\\cmTC_2ba88.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2ba88.dir\\Debug\\cmTC_2ba88.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ba88.dir\\Debug\\\\" /Fd"cmTC_2ba88.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32216.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ba88.dir\\Debug\\\\" /Fd"cmTC_2ba88.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qecbvx\\Debug\\cmTC_2ba88.exe" /INCREMENTAL /ILK:"cmTC_2ba88.dir\\Debug\\cmTC_2ba88.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx/Debug/cmTC_2ba88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx/Debug/cmTC_2ba88.lib" /MACHINE:X64  /machine:x64 cmTC_2ba88.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2ba88.vcxproj -> D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qecbvx\\Debug\\cmTC_2ba88.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/utils/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qecbvx/Debug/cmTC_2ba88.exe -installedDir D:/utils/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_2ba88.dir\\Debug\\cmTC_2ba88.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_2ba88.dir\\Debug\\cmTC_2ba88.tlog\\cmTC_2ba88.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qecbvx\\cmTC_2ba88.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e"
+      binary: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e"
+    cmakeVariables:
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/utils/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e
+        
+        Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e1982.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        生成启动时间为 2023/5/12 20:00:38。
+        Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e1982.dir\\Debug\\”。
+          正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\”。
+          正在创建目录“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        AddCudaCompileDeps:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=0 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"D:\\cuda\\CUDA Development\\bin" /I"D:\\cuda\\CUDA Development\\include" /I. /FIcuda_runtime.h /c D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu 
+        项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(1)正在节点 1 上生成“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(1:2) (CudaBuildCore 个目标)。
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\RX\\AppData\\Local\\Temp\\tmpf20c0179e4a349169929d7f522b8ce26.cmd"
+          "D:\\cuda\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"D:\\cuda\\CUDA Development\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_e1982.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e>"D:\\cuda\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"D:\\cuda\\CUDA Development\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_e1982.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          tmpxft_00006450_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(CudaBuildCore 个目标)的操作。
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        Link:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\cmTC_e1982.exe" /INCREMENTAL /ILK:"cmTC_e1982.dir\\Debug\\cmTC_e1982.ilk" /NOLOGO /LIBPATH:"D:\\cuda\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib" /MACHINE:X64  /machine:x64 -v cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+            正在创建库 D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib 和对象 D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.exp
+        LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          cmTC_e1982.vcxproj -> D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\cmTC_e1982.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/utils/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.exe -installedDir D:/utils/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\cmTC_e1982.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(默认目标) (1) ->
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(CudaBuildCore 目标) (1:2) ->
+        (CudaBuildCore 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+        
+        
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+          LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]
+        
+            5 个警告
+            0 个错误
+        
+        已用时间 00:00:04.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e]
+        ignore line: []
+        ignore line: [Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e1982.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework]
+        ignore line: [生成启动时间为 2023/5/12 20:00:38。]
+        ignore line: [Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp]
+        ignore line: []
+        ignore line: [节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(默认目标)。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在创建目录“cmTC_e1982.dir\\Debug\\”。]
+        ignore line: [  正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\”。]
+        ignore line: [  正在创建目录“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\”。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  正在创建“cmTC_e1982.dir\\Debug\\cmTC_e1982.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=0 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"D:\\cuda\\CUDA Development\\bin" /I"D:\\cuda\\CUDA Development\\include" /I. /FIcuda_runtime.h /c D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu ]
+        ignore line: [项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(1)正在节点 1 上生成“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\RX\\AppData\\Local\\Temp\\tmpf20c0179e4a349169929d7f522b8ce26.cmd"]
+        ignore line: [  "D:\\cuda\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"D:\\cuda\\CUDA Development\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_e1982.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e>"D:\\cuda\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"D:\\cuda\\CUDA Development\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_e1982.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj "D:\\cmake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj]]
+        ignore line: [  tmpxft_00006450_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\cmTC_e1982.vcxproj”(CudaBuildCore 个目标)的操作。]
+        ignore line: [VcpkgTripletSelection:]
+        ignore line: [  Not using Vcpkg because VcpkgEnabled is "false"]
+        ignore line: [Link:]
+        link line: [  D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\cmTC_e1982.exe" /INCREMENTAL /ILK:"cmTC_e1982.dir\\Debug\\cmTC_e1982.ilk" /NOLOGO /LIBPATH:"D:\\cuda\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib" /MACHINE:X64  /machine:x64 -v cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj]
+          arg [D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ylm20e\\Debug\\cmTC_e1982.exe] ==> ignore
+          arg [/INCREMENTAL] ==> ignore
+          arg [/ILK:cmTC_e1982.dir\\Debug\\cmTC_e1982.ilk] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:D:\\cuda\\CUDA Development\\lib\\x64] ==> dir [D:\\cuda\\CUDA Development\\lib\\x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/DEBUG] ==> ignore
+          arg [/PDB:D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib] ==> lib [/IMPLIB:D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib]
+          arg [/MACHINE:X64] ==> ignore
+          arg [/machine:x64] ==> ignore
+          arg [-v] ==> ignore
+          arg [cmTC_e1982.dir\\Debug\\CMakeCUDACompilerABI.obj] ==> ignore
+        collapse library dir [D:\\cuda\\CUDA Development\\lib\\x64] ==> [D:/cuda/CUDA Development/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib;/IMPLIB:D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-ylm20e/Debug/cmTC_e1982.lib]
+        implicit objs: []
+        implicit dirs: [D:/cuda/CUDA Development/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/cmake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBConfig.cmake:3 (find_dependency)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/FindOpenVDB.cmake:493 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/vcpkg-cmake-wrapper.cmake:10 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:806 (include)"
+      - "CMakeLists.txt:66 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-wjw3vz"
+      binary: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-wjw3vz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/utils/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-wjw3vz
+        
+        Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e48c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        生成启动时间为 2023/5/12 20:00:50。
+        Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\cmTC_3e48c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3e48c.dir\\Debug\\”。
+          正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\Debug\\”。
+          正在创建目录“cmTC_3e48c.dir\\Debug\\cmTC_3e48c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3e48c.dir\\Debug\\cmTC_3e48c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_3e48c.dir\\Debug\\\\" /Fd"cmTC_3e48c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32216.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_3e48c.dir\\Debug\\\\" /Fd"cmTC_3e48c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\src.cxx"
+        D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\src.cxx(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\cmTC_3e48c.vcxproj]
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\cmTC_3e48c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\cmTC_3e48c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\src.cxx(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjw3vz\\cmTC_3e48c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.13
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBConfig.cmake:3 (find_dependency)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/FindOpenVDB.cmake:493 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/vcpkg-cmake-wrapper.cmake:10 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:806 (include)"
+      - "CMakeLists.txt:66 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qddzn6"
+      binary: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qddzn6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/utils/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qddzn6
+        
+        Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ccec6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        生成启动时间为 2023/5/12 20:00:52。
+        Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\cmTC_ccec6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ccec6.dir\\Debug\\”。
+          正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\Debug\\”。
+          正在创建目录“cmTC_ccec6.dir\\Debug\\cmTC_ccec6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ccec6.dir\\Debug\\cmTC_ccec6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_ccec6.dir\\Debug\\\\" /Fd"cmTC_ccec6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32216.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_ccec6.dir\\Debug\\\\" /Fd"cmTC_ccec6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\CheckFunctionExists.cxx"
+        Link:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\Debug\\cmTC_ccec6.exe" /INCREMENTAL /ILK:"cmTC_ccec6.dir\\Debug\\cmTC_ccec6.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qddzn6/Debug/cmTC_ccec6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-qddzn6/Debug/cmTC_ccec6.lib" /MACHINE:X64  /machine:x64 cmTC_ccec6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\cmTC_ccec6.vcxproj]
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\cmTC_ccec6.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\cmTC_ccec6.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qddzn6\\cmTC_ccec6.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBConfig.cmake:3 (find_dependency)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/FindOpenVDB.cmake:493 (find_package)"
+      - "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/vcpkg-cmake-wrapper.cmake:10 (_find_package)"
+      - "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:806 (include)"
+      - "CMakeLists.txt:66 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-pnjps6"
+      binary: "D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-pnjps6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/utils/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-pnjps6
+        
+        Run Build Command(s):D:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_540a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        生成启动时间为 2023/5/12 20:00:53。
+        Included response file: D:\\VisualStudio\\community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\cmTC_540a6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_540a6.dir\\Debug\\”。
+          正在创建目录“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\Debug\\”。
+          正在创建目录“cmTC_540a6.dir\\Debug\\cmTC_540a6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_540a6.dir\\Debug\\cmTC_540a6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_540a6.dir\\Debug\\\\" /Fd"cmTC_540a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32216.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_540a6.dir\\Debug\\\\" /Fd"cmTC_540a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\CheckFunctionExists.cxx"
+        Link:
+          D:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\Debug\\cmTC_540a6.exe" /INCREMENTAL /ILK:"cmTC_540a6.dir\\Debug\\cmTC_540a6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-pnjps6/Debug/cmTC_540a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/A_study/computer_graphics/optix/optix-render/build/CMakeFiles/CMakeScratch/TryCompile-pnjps6/Debug/cmTC_540a6.lib" /MACHINE:X64  /machine:x64 cmTC_540a6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\cmTC_540a6.vcxproj]
+        已完成生成项目“D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\cmTC_540a6.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\cmTC_540a6.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\A_study\\computer_graphics\\optix\\optix-render\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnjps6\\cmTC_540a6.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.31
+        
+      exitCode: 1
+...

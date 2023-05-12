@@ -1,0 +1,10 @@
+^D:\A_STUDY\COMPUTER_GRAPHICS\OPTIX\OPTIX-RENDER\BUILD\CMAKEFILES\0D54A1CBEFE046EAABEE377445DF5FBD\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SD:/A_study/computer_graphics/optix/optix-render -BD:/A_study/computer_graphics/optix/optix-render/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/A_study/computer_graphics/optix/optix-render/build/OPTIX-Render.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

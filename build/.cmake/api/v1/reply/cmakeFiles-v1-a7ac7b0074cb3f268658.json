@@ -1,0 +1,522 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeCUDAInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Compiler/NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/Windows-NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindCUDAToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/glm/glm-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/assimp/assimpConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/assimp/assimpConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/pugixml/pugixml-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/pugixml/pugixml-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/pugixml/pugixml-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/pugixml/pugixml-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/pugixml/pugixml-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/assimp/assimpTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/assimp/assimpTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/assimp/assimpTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/stb/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/stb/FindStb.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/FindOpenVDB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/openvdb/OpenVDBUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/tbb/TBBTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindBoost.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/blosc/blosc-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/lz4/lz4-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/lz4/lz4-config-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/lz4/lz4-config-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zstd/zstdConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zstd/zstdConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zstd/zstdTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zstd/zstdTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zstd/zstdTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/snappy/SnappyConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/snappy/SnappyConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/snappy/SnappyTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/snappy/SnappyTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/snappy/SnappyTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/blosc/blosc-config-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/blosc/blosc-config-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/imath/ImathConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/imath/ImathConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/imath/ImathTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/imath/ImathTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/utils/vcpkg/vcpkg/installed/x64-windows/share/imath/ImathTargets-release.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/A_study/computer_graphics/optix/optix-render/build",
+		"source" : "D:/A_study/computer_graphics/optix/optix-render"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
